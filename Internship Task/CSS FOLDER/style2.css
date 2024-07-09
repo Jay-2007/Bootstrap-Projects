@@ -1,0 +1,82 @@
+.main{
+    height: 150%;
+    width: 100%;
+    background-image: linear-gradient(to Right bottom,#23395d,#026aa7,#5ba4cf);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 650px;
+    height: 630px;
+    position: relative;
+    margin: 50px auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.button-box{
+    width: 320px;
+    height: 35px;
+    margin: 20px auto;
+    position: relative;
+    background-position: center;
+    border-radius: 30px;
+}
+.form2{
+    width: 200px;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background:  linear-gradient(to Right bottom,#23395d,#026aa7,#5ba4cf);
+    border: 0;
+    outline: none;
+    border-radius: 30px;   
+}
+.input{
+    top: 70px;
+    position: absolute;
+    width: 280px;
+    margin: 30px 20px;  
+    padding: 5px; 
+}
+.input-detail{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.submit-btn{
+    width: 200px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    position: center;
+    background:  linear-gradient(to Right bottom,#23395d,#026aa7,#5ba4cf);
+    border: 0;
+    outline: none;   
+    border-radius: 30px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

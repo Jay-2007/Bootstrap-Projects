@@ -1,0 +1,42 @@
+    .main{
+        margin: 20px;
+        padding: 20px 50px;
+    }
+    label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    }
+    button{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(159, 38, 189);
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+    }
+    button{
+    background-color: rgb(159, 38, 189);
+    color: white;
+    }
+    .bn{
+        background-color: rgb(193, 66, 225);   
+        border-radius: 20px;
+        width: 100px;
+        border: none;
+        padding: 0 20px;
+    }

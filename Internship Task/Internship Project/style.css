@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+}
+.navbar-brand{
+    color: rgb(159, 38, 189);
+}
+.nav-item{
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+    text-align: left;
+}
+.navbar-brand{
+    font-size: 35px;
+    margin: 30px;
+    padding: 20px 20px;
+}
+.home{
+    width: "100%";
+    text-align: center;
+}
+.name{
+    color: rgb(159, 38, 189);
+}
+.btn{
+    background-color: rgb(159, 38, 189);
+    border-radius: 100px;
+}
+.text{
+    color: #646363;
+}
+.fc{
+    background-color: black;
+    color: white;
+}
+.ft{
+    color: rgb(159, 38, 189);
+}
+.tutorial{
+    margin: 30px;
+    padding: 30px 30px;
+}
+.image{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.im{
+    width: 200px;
+    border-radius: 50%;
+}
+.color{
+    color: white;
+}
+.container{
+    margin: 20px;
+}
+.bn{
+    background-color: rgb(193, 66, 225);   
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+}

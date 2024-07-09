@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="C:\Users\hp\Desktop\INTERNSHIP\Internship Task\CSS FOLDER\style2.css">
+    <script href="C:\Users\hp\Desktop\INTERNSHIP\Internship Task\include\scriptvaidation.js"></script>
+</head>
+<body>
+    <center>
+        <div class="main">
+            <div class="form-box">
+                <div class="button-box">
+                    <div class="form2">Registration</div>
+                </div>
+                <form action="" name="main" class="input">
+                  <tabel>
+                    <tr>
+                        <td><input type="text" id="name" class="input-detail" name="name" placeholder="Full Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" id="mobile" class="input-detail" name="mobile" placeholder="Mobile No" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" class="input-detail" name="email" placeholder="Email"required></td>
+                    </tr>
+                    <tr><td>Gender :
+                        <input type="radio" name="rdgen" value="Male" required>Male
+                        <input type="radio" id="rdgen" name="rdgen" value="Female" required>Female</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" id="state" class="input-detail" name="state"  required></td>
+                    </tr>
+                    <tr>
+                        <select name="State" class="input-detail">
+                            <option selected>State</option>
+                            <option>Gujarat</option>
+                            <option>Maharashtra</option>
+                            <option>Rajashthan</option>
+                            <option>Delhi</option>
+                            <option>Keral</option>
+                        </select></td>
+                    </tr>
+                    <div class="details"  class="input-detail">
+                    <table border="1">
+                        <tr>
+                            <font face="arial" size="2" >
+                                <th bgcolor="#5ba4cf">Sr. No.</th>
+                                <th bgcolor="#5ba4cf">Examination</th>
+                                <th bgcolor="#5ba4cf">Percentage</th>
+                                <th bgcolor="#5ba4cf">Year Of Passing</th>
+                            </font>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#5ba4cf"><b>1.</b></td>
+                            <td><input type="text" name="examination" placeholder="Examination"></td>
+                            <td><input type="text" name="Percentage" placeholder="Percentage"></td>
+                            <td><input type="text" name="yearofpassing" placeholder="Year Of Passing"></td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#5ba4cf"><b>2.</b></td>
+                            <td><input type="text" name="examination" placeholder="Examination"></td>
+                            <td><input type="text" name="Percentage" placeholder="Percentage"></td>
+                            <td><input type="text" name="yearofpassing" placeholder="Year Of Passing"></td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#5ba4cf"><b>3.</b></td>
+                            <td><input type="text" name="examination" placeholder="Examination"></td>
+                            <td><input type="text" name="Percentage" placeholder="Percentage"></td>
+                            <td><input type="text" name="yearofpassing" placeholder="Year Of Passing"></td>
+                        </tr>
+                    </table>
+                    </div><br>
+                    <tr>
+                        <td><input type="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;I agree to your terms & conditions</td>
+                    </tr><br><br>
+                    <tr>
+                        <td><input type="submit" name="submit" class="submit-btn" onClick="return correct()" value="Submit"></td>
+                    </tr>
+                  </tabel>
+                </form>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
